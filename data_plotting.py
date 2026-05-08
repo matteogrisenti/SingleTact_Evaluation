@@ -22,10 +22,11 @@ FPS_VIDEO = 30 # Framerate del video finale
 #             55.74, 59.78, 62.36, 68.82, 71.82, 79.59, 83.28,
 #             87.52, 92.65]
 
-START_TOUCH = []
-END_TOUCH = []
+# --- PUSH DOWN RIGID ---
+START_TOUCH = [5.74, 10.90, 17.44, 24.01, 32.77, 37.91, 42.28, 48.94, 52.01, 56.60]
+END_TOUCH = [7.20, 13.06, 19.10, 30.00, 34.77, 39.60, 44.19, 50.10, 53.20, 58.50]
 
-file_name = "noise/noise_1N_rigid_down.csv"
+file_name = "1N_Rigid_Push_Down/SingleTactSampleData_1778249367.csv"
 
 # 1. Lettura dati e pulizia
 df = pd.read_csv(file_name, sep=";", skiprows=2, decimal=",")
